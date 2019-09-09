@@ -16,7 +16,9 @@
     "url": "https://github.com/LuCAN7/techdegree-project-6/issues"
   },
   "homepage": "https://github.com/LuCAN7/techdegree-project-6#readme",
-  "dependencies": {},
+  "dependencies": {
+    "pug": "^2.0.4"
+  },
   "devDependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
