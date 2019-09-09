@@ -6,9 +6,12 @@ const app = express();
 
 // view engine setup
 app.set('view engine', 'pug');
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(cookieParser());
 
 app.get('/', function (req, res) {
-  res.render('./views/index.pug');
+  res.render('./index');
+  // let dave = require('./views/index');
   
 })
 
