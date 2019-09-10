@@ -15,15 +15,17 @@ app.use(cookieParser());
 
 app.use('/static', express.static('public'));
 
-console.log(projects.projects[0]);
+// console.dir("1-",app.locals.title);
+// console.log(projects.projects[0]);
 
 app.get('/', function (req, res) {
-
-  console.log('Reponse Body:', res.body);
-  console.log('res.locals', res.locals);
+  const data = projects.projects;
+console.log(data);
+  console.log('Reponse Body:', req.body);
+  console.log('Response Locals:', req.locals);
   // res.locals = data.projects;
   let message = 'Relax this is only a test'
-  res.render('index', {headingTest: "Let's Web together!!!", message: message});
+  res.render('index', { projects: data });
   // let dave = require('./views/index');
   
 });
