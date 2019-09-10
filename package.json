@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LuCAN7/techdegree-project-6#readme",
   "dependencies": {
+    "path": "^0.12.7",
     "pug": "^2.0.4"
   },
   "devDependencies": {

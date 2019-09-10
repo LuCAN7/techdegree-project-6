@@ -1,28 +1,29 @@
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const cookieParser = require('body-parser');
+const projects = require('./data.json')
 
 const app = express();
 
 // view engine setup
 app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser());
 
 app.use('/static', express.static('public'));
 
-app.use((req, res, next) => {
-  // console.log('...Problem');
-  const err = new Error('Not Found');
-  // ('Oh noes, Something went wrong!');
-  next(err);
-});
+console.log(projects.projects[0]);
 
 app.get('/', function (req, res) {
 
-  console.log(res.locals);
+  console.log('Reponse Body:', res.body);
+  console.log('res.locals', res.locals);
   // res.locals = data.projects;
-  res.render('layout');
+  let message = 'Relax this is only a test'
+  res.render('index', {headingTest: "Let's Web together!!!", message: message});
   // let dave = require('./views/index');
   
 });
@@ -36,7 +37,15 @@ app.get('/projects/:id', function (req, res) {
   const project = res.params.id;
   res.render('project', { project: project });
   
-})
+});
+
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  // console.log('...Problem');
+  // ('Oh noes, Something went wrong!');
+  err.status = 404;
+  next(err);
+});
 
 app.use((err, req, res, next) => {
   res.locals.error = err;
@@ -49,3 +58,4 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log('Server is started on PORT:3000...');
 });
+
