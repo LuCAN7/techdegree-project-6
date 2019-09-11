@@ -26,8 +26,7 @@ console.log(data);
   // res.locals = data.projects;
   let message = 'Relax this is only a test'
   res.render('index', { projects: data });
-  // let dave = require('./views/index');
-  
+ 
 });
 
 app.get('/about', function (req, res) {
