@@ -13,6 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser());
 
+// app.use(express.static(path.join(__dirname, 'public')));
+
 app.use('/static', express.static('public'));
 
 // console.dir("1-",app.locals.title);
