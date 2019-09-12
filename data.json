@@ -2,12 +2,12 @@
   "projects": [
     {
       "id": "001",
-      "name": "project1",
-      "description": "my first project",
+      "name": "Random Quote Generator",
+      "description": "This app generates rtandom quote once a button is clicked",
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]
+      "images": ["/img/blog_sp.jpg", "/img/facebook_sp.jpg"]
     },
     {
       "id": "002",
@@ -16,7 +16,7 @@
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]
+      "images": ["/img/seo_sp.jpg", "/img/main001.jpg"]
     },
     {
       "id": "003",
@@ -25,7 +25,8 @@
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]},
+      "images": ["/img/web_apps.jpg", "/img/main001.jpg"]
+    },
     {
       "id": "004",
       "name": "project4",
@@ -33,7 +34,7 @@
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost34000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]
+      "images": ["/img/pinterest_sp.jpg", "/img/main001.jpg", "/img/main001.jpg"]
     },
     {
       "id": "005",
@@ -42,7 +43,7 @@
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]
+      "images": ["/img/main001.jpg", "/img/main001.jpg", "/img/main001.jpg"]
     },
     {
       "id": "006",
@@ -51,7 +52,7 @@
       "tech": ["HTML", "CSS", "JavaScript"],
       "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
-      "images": ["./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg", "./images/main001.jpg"]
+      "images": ["/img/main001.jpg", "/img/main001.jpg", "/img/main001.jpg"]
     }
   ]
 
