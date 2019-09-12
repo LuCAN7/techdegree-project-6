@@ -5,7 +5,7 @@
       "name": "Random Quote Generator",
       "description": "This app generates rtandom quote once a button is clicked",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "http://localhost:3000",
+      "link": "http://localhost:3000/",
       "github": "https://github.com/LuCAN7",
       "images": ["/img/blog_sp.jpg", "/img/facebook_sp.jpg"]
     },
