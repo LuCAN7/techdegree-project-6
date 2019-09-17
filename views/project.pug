@@ -2,17 +2,17 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href=`/#{project}`) ← Back
+    a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interpolation to dynamically add the project title.
-        h1 Title
+          //- Use interpolation to dynamically add the project title.
+          h1= project.name
 
-        //- Use interpolation to dynamically add the project description.
-        p.lead.text-light
-          | Description
+          //- Use interpolation to dynamically add the project description.
+          p.lead.text-light
+            | #{project.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
