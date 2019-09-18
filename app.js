@@ -33,7 +33,7 @@ app.get('/about', function (req, res) {
 app.get('/project/:id', function (req, res) {
   const projects = dataJSON.projects;
   const id = parseInt(req.params.id) - 1;
-  
+  // console.log(typeof projects[0].images[0]);
   res.render('project', { project: projects[id] });
   
 });
