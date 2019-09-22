@@ -148,3 +148,14 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+
+div.grid-container.error-message{
+  color: #444;
+  margin: 0;
+  padding: 40px 90px 50px;
+}
+
+div.grid-container.error-message h1, p, h2{
+  font-family: Helvetica, sans-serif;
+}
