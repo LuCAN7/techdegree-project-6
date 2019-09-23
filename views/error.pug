@@ -1,13 +1,12 @@
 extends layout.pug
 
 block content
-
-  div.grid-container.error-message
-    h1 Error 404 - Page Not Found
-
+  div.grid-container.error-message 
+    hr
     img(src=`/static/img/page_not_found.png`)
 
-    h2 Uh oh.
-      p The page you requested could not be found. Please try another URL.accordion
-
-  a(href='/') ← Back
+    h2 Uh oh! Page Not Found.
+      p The page you requested could not be found. Please ensure the URL entered is typed in correctly.
+    br
+    hr
+    a(href='/') ← Back
