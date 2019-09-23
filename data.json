@@ -5,7 +5,7 @@
       "name": "Random Quote Generator",
       "description": "Practice your knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
       "tech": ["HTMLX", "CSS", "JavaScript"],
-      "link": "http://localhost:4000/",
+      "link": "http://localhost:3000/",
       "github": "https://github.com/LuCAN7/techdegree-project-1",
       "images": ["img/screens/p1a.png", "img/screens/p1b.png", "img/screens/p1c.png"]
     },
@@ -14,7 +14,7 @@
       "name": "List Pagination and Filtering",
       "description": "A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, you'll write JavaScript to divide a long list into a series of 'pages' and improve the user experience of a web page.",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "http://localhost:4000",
+      "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7/techdegree-project-2",
       "images": ["img/screens/p2a.png", "img/screens/p2b.png", "img/screens/p2c.png"]
     },
@@ -23,7 +23,7 @@
       "name": "Interactive Form",
       "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "http://localhost:4000",
+      "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7/techdegree-project-3",
       "images": ["img/screens/p3a.png", "img/screens/p3b.png", "img/screens/p3c.png"]
     },
@@ -32,7 +32,7 @@
       "name": "OOP Game Show App ",
       "description": "Create a browser-based, word guessing game: 'Phrase Hunter.' You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "http://localhost:4000",
+      "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7/techdegree-project-4",
       "images": ["img/screens/p4a.png", "img/screens/p4b.png", "img/screens/p4c.png"]
     },
@@ -41,7 +41,7 @@
       "name": "Public API Requests",
       "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "link": "http://localhost:4000",
+      "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7/techdegree-project-5",
       "images": ["img/screens/p5a.png", "img/screens/p5b.png", "img/screens/p5c.png"]
     },
@@ -50,7 +50,7 @@
       "name": "project 6 - Unknown",
       "description": "This is my latetest project to be. This will demonstrate all the things i love and like about web developement.",
       "tech": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      "link": "http://localhost:4000",
+      "link": "http://localhost:3000",
       "github": "https://github.com/LuCAN7",
       "images": ["img/blog_sp.jpg", "img/seo_sp.jpg", "img/blog_sp.jpg"]
     }
